@@ -1,0 +1,28 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Ducati_Badge__c",
+                "referenceId": "Ducati_Badge__cRef1"
+            },
+            "Name": "King of the Mountain",
+            "Image_URL__c": "https://github.com/mshanemc/platform-campground-customer-exp/blob/master/images/mountain.png?raw=true"
+        },
+        {
+            "attributes": {
+                "type": "Ducati_Badge__c",
+                "referenceId": "Ducati_Badge__cRef2"
+            },
+            "Name": "Winter Driver",
+            "Image_URL__c": "https://github.com/mshanemc/platform-campground-customer-exp/blob/master/images/snow.png?raw=true"
+        },
+        {
+            "attributes": {
+                "type": "Ducati_Badge__c",
+                "referenceId": "Ducati_Badge__cRef3"
+            },
+            "Name": "Speed Racer",
+            "Image_URL__c": "https://github.com/mshanemc/platform-campground-customer-exp/blob/master/images/car.png?raw=true"
+        }
+    ]
+}

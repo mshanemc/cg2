@@ -2,7 +2,6 @@
 	{
 			"sobject": "Contact",
 			"saveRefs": true,
-			"resolveRefs": false,
 			"files": [
 					"Contact.json"
 			]
@@ -10,7 +9,6 @@
 	{
 			"sobject": "Bike__c",
 			"saveRefs": true,
-			"resolveRefs": false,
 			"files": [
 					"Bike__c.json"
 			]
@@ -18,7 +16,6 @@
 	{
 			"sobject": "Ducati_Badge__c",
 			"saveRefs": true,
-			"resolveRefs": false,
 			"files": [
 					"Ducati_Badge__c.json"
 			]
@@ -33,7 +30,6 @@
 	},
 	{
 			"sobject": "Badge_Earned__c",
-			"saveRefs": false,
 			"resolveRefs": true,
 			"files": [
 					"Badge_Earned__c.json"
@@ -41,10 +37,17 @@
 	},
 	{
 			"sobject": "Ride__c",
-			"saveRefs": false,
 			"resolveRefs": true,
 			"files": [
 					"Ride__c.json"
 			]
+	},
+	{
+		"sobject": "Constant__c",
+		"resolveRefs": true,
+		"files": [
+				"Constant__c.json"
+		]
 	}
+
 ]

@@ -1,0 +1,11 @@
+{
+	"records": [
+			{
+					"attributes": {
+							"type": "Constant__c",
+							"referenceId": "const1"
+					},
+					"Winter_Badge_Id__c": "@Ducati_Badge__cRef2"
+			}
+	]
+}

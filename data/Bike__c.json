@@ -1,0 +1,12 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Bike__c",
+                "referenceId": "Bike__cRef1"
+            },
+            "Name": "Multistrada 1200 Enduro",
+            "Image_URL__c": "https://github.com/mshanemc/platform-campground-customer-exp/blob/master/images/ducati-multistrada-1200-enduro.jpg?raw=true"
+        }
+    ]
+}

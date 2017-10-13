@@ -1,0 +1,14 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Customer_Bikes__c",
+                "referenceId": "Customer_Bikes__cRef1"
+
+            },
+            "Bike__c" : "@Bike__cRef1",
+            "Customer__c" : "@ContactRef1",
+            "Purchase_Date__c" : "2017-08-21"
+        }
+    ]
+}

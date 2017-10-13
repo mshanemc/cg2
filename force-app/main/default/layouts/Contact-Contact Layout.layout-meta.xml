@@ -180,15 +180,12 @@
     </relatedContent>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Start__c</fields>
+        <fields>Distance__c</fields>
+        <fields>Weather__c</fields>
         <relatedList>Ride__c.Customer__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Badge_Earned__c.Customer__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Customer_Bikes__c.Customer__c</relatedList>
+        <sortField>Start__c</sortField>
+        <sortOrder>Desc</sortOrder>
     </relatedLists>
     <relatedLists>
         <fields>OPPORTUNITY.NAME</fields>

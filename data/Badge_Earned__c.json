@@ -1,0 +1,21 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Badge_Earned__c",
+                "referenceId": "Badge_Earned__cRef1"
+            },
+            "Customer__c" : "@ContactRef1",
+            "Badge__c" : "@Ducati_Badge__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "Badge_Earned__c",
+                "referenceId": "Badge_Earned__cRef2"
+            },
+            "Customer__c" : "@ContactRef1",
+            "Badge__c" : "@Ducati_Badge__cRef3"
+
+        }
+    ]
+}

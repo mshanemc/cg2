@@ -1,0 +1,112 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Ride__c",
+                "referenceId": "Ride__cRef1"
+            },
+            "Distance__c": 45.34,
+            "End__c": "2017-11-04T15:03:00.000+0000",
+            "Start__c": "2017-11-04T14:42:00.000+0000",
+            "Weather__c": "Sun",
+            "Bike__c" : "@Customer_Bikes__cRef1",
+            "Customer__c" : "@ContactRef1"
+        },
+        {
+            "attributes": {
+                "type": "Ride__c",
+                "referenceId": "Ride__cRef2"
+            },
+            "Distance__c": 12.12,
+            "End__c": "2017-10-29T15:03:00.000+0000",
+            "Start__c": "2017-10-29T14:37:00.000+0000",
+            "Weather__c": "Sun",
+            "Bike__c" : "@Customer_Bikes__cRef1",
+            "Customer__c" : "@ContactRef1"
+        },
+        {
+            "attributes": {
+                "type": "Ride__c",
+                "referenceId": "Ride__cRef3"
+            },
+            "Distance__c": 67.01,
+            "End__c": "2017-10-01T15:03:00.000+0000",
+            "Start__c": "2017-10-01T15:55:00.000+0000",
+            "Weather__c": "Rain",
+            "Bike__c" : "@Customer_Bikes__cRef1",
+            "Customer__c" : "@ContactRef1"
+        },
+        {
+            "attributes": {
+                "type": "Ride__c",
+                "referenceId": "Ride__cRef4"
+            },
+            "Distance__c": 9.24,
+            "End__c": "2017-10-01T15:03:00.000+0000",
+            "Start__c": "2017-10-01T11:44:00.000+0000",
+            "Weather__c": "Sun",
+            "Bike__c" : "@Customer_Bikes__cRef1",
+            "Customer__c" : "@ContactRef1"
+        },
+        {
+            "attributes": {
+                "type": "Ride__c",
+                "referenceId": "Ride__cRef5"
+            },
+            "Distance__c": 9.21,
+            "End__c": "2017-10-14T15:03:00.000+0000",
+            "Start__c": "2017-10-14T19:22:00.000+0000",
+            "Weather__c": "Fog",
+            "Bike__c" : "@Customer_Bikes__cRef1",
+            "Customer__c" : "@ContactRef1"
+        },
+        {
+            "attributes": {
+                "type": "Ride__c",
+                "referenceId": "Ride__cRef6"
+            },
+            "Distance__c": 110.34,
+            "End__c": "2017-10-14T15:03:00.000+0000",
+            "Start__c": "2017-10-14T12:41:00.000+0000",
+            "Weather__c": "Cloudy",
+            "Bike__c" : "@Customer_Bikes__cRef1",
+            "Customer__c" : "@ContactRef1"
+        },
+        {
+            "attributes": {
+                "type": "Ride__c",
+                "referenceId": "Ride__cRef7"
+            },
+            "Distance__c": 9.45,
+            "End__c": "2017-10-12T15:03:00.000+0000",
+            "Start__c": "2017-10-12T14:33:00.000+0000",
+            "Weather__c": "Sun",
+            "Bike__c" : "@Customer_Bikes__cRef1",
+            "Customer__c" : "@ContactRef1"
+        },
+        {
+            "attributes": {
+                "type": "Ride__c",
+                "referenceId": "Ride__cRef8"
+            },
+            "Distance__c": 9.24,
+            "End__c": "2017-10-12T15:03:00.000+0000",
+            "Start__c": "2017-10-12T14:21:00.000+0000",
+            "Weather__c": "Sun",
+            "Bike__c" : "@Customer_Bikes__cRef1",
+            "Customer__c" : "@ContactRef1"
+        },
+        {
+            "attributes": {
+                "type": "Ride__c",
+                "referenceId": "Ride__cRef9"
+            },
+            "Distance__c": 11.78,
+            "End__c": "2017-10-09T15:03:00.000+0000",
+            "Start__c": "2017-10-09T14:19:00.000+0000",
+            "Weather__c": "Sun",
+            "Bike__c" : "@Customer_Bikes__cRef1",
+            "Customer__c" : "@ContactRef1"
+        }
+    ]
+}

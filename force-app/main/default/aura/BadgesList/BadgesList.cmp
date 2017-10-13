@@ -8,19 +8,13 @@
 		<div class="slds-p-horizontal_medium">
 			<!--then put your body here, outside any aura:set-->
 			<aura:iteration items="{!v.badges}" var="badge">
-					<div>
-
-					</div>
-
-					<div class="slds-media slds-media_center">
+					<div class="slds-media slds-media_center slds-p-vertical_medium">
 							<div class="slds-media__figure">
-								<span class="slds-avatar slds-avatar_large">
-									<img alt="Person name" src="{!badge.Badge__r.Image_Url__c}" title="{!badge.Badge__r.Name}" fallbackIconName="custom:custom48" />
-								</span>
+								<lightning:avatar fallbackIconName="custom:custom48" size="large" src="{!badge.Badge__r.Image_URL__c}"/>
 							</div>
 							<div class="slds-media__body">
 								<p class="slds-text-heading_medium">{!badge.Badge__r.Name}</p>
-								<p><lightning:relativeDateTime value="{!badge.CreatedDate}"/></p>
+								<p class="slds-text-heading_small"><lightning:formattedDateTime value="{!badge.CreatedDate}"/></p>
 							</div>
 						</div>
 				</aura:iteration>

@@ -1,0 +1,15 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef1"
+            },
+            "FirstName": "Gabe",
+            "LastName": "Sumner",
+            "Email": "roadeater@gmail.com",
+            "MobilePhone": "415 894 4341",
+            "Birthdate": "1979-04-20"
+        }
+    ]
+}

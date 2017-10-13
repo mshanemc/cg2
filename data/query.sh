@@ -13,7 +13,7 @@ rm Ride__c.json
 sfdx force:data:tree:export -q "select firstname, lastname, email, mobilephone, birthdate from contact"
 
 #bikes
-sfdx force:data:tree:export -q "select name, image_url__c, from Bike__c"
+sfdx force:data:tree:export -q "select name, image_url__c from Bike__c"
 
 #query badges
 sfdx force:data:tree:export -q "select name, image_url__c, description__c from Ducati_Badge__c"

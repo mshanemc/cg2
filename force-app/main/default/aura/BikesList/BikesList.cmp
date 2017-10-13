@@ -1,0 +1,21 @@
+<aura:component implements="force:hasRecordId, flexipage:availableForRecordHome" controller="DucatiQueries">
+
+			<aura:attribute name="bikes" type="object[]"/>
+			<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+			<!--icons at https://www.lightningdesignsystem.com/icons/ -->
+			<lightning:card title="Customer's Bikes" iconName="custom:custom48" variant="base">
+				<div class="slds-p-horizontal_medium">
+					<!--then put your body here, outside any aura:set-->
+					<aura:iteration items="{!v.bikes}" var="bike">
+						<p class="slds-text-heading_large slds-text-align_center">{!bike.Bike__r.Name}</p>
+						<p class="slds-text-heading_small slds-text-align_center">
+							Purchased <lightning:formattedDateTime value="{!bike.Purchase_Date__c}"/>
+						</p>
+						<img src="{!bike.Bike__r.Image_URL__c}" class="bike_pic"/>
+
+					</aura:iteration>
+				</div>
+			</lightning:card>
+
+		</aura:component>
