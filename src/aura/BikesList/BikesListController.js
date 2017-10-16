@@ -1,7 +1,6 @@
 ({
     doInit : function(component) {
-        console.log('init is initing');
-        var action = component.get("c.getBadges");
+        var action = component.get("c.getBikes");
         action.setParams({
             customerId : component.get("v.recordId")
         });
@@ -9,7 +8,7 @@
             var state = a.getState();
             if (state === "SUCCESS") {
                 console.log(a.getReturnValue());
-                component.set("v.badges", a.getReturnValue());
+                component.set("v.bikes", a.getReturnValue());
             } else if (state === "ERROR") {
                 console.log(a.getError());
             }

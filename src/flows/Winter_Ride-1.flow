@@ -10,7 +10,7 @@
         <inputParameters>
             <name>emailSubject</name>
             <value>
-                <stringValue>Salesforce Winter Ride process didn&apos;t start: No matching records found</stringValue>
+                <stringValue>Salesforce Winter Ride process didn't start: No matching records found</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -36,7 +36,7 @@
         <inputParameters>
             <name>emailSubject</name>
             <value>
-                <stringValue>Salesforce Winter Ride process didn&apos;t start: Multiple matching records found</stringValue>
+                <stringValue>Salesforce Winter Ride process didn't start: Multiple matching records found</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -331,7 +331,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue></stringValue>
+                    <stringValue/>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -367,7 +367,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue></stringValue>
+                    <stringValue/>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -378,7 +378,7 @@
             </processMetadataValues>
             <field>Message__c</field>
             <value>
-                <stringValue>You&apos;ve just earned the Winter Driver badge!  You might want a jacket if you&apos;re driving in the cold...we&apos;ve got just the thing.</stringValue>
+                <stringValue>You've just earned the Winter Driver badge!  You might want a jacket if you're driving in the cold...we've got just the thing.</stringValue>
             </value>
         </inputAssignments>
         <object>Notification__e</object>
@@ -451,7 +451,7 @@
             <processMetadataValues>
                 <name>leftHandSideReferenceTo</name>
                 <value>
-                    <stringValue></stringValue>
+                    <stringValue/>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -488,11 +488,11 @@
         <name>multipleRecordsFoundTextTemplate</name>
         <text>Hello {!OrganizationName} Admin, 
 
-The Winter Ride process is configured to start when a Ride Completed platform event message occurs. A Ride Completed message occurred, but the process didn&apos;t start because multiple records in your org match the values specified in the process&apos;s Object node.
+The Winter Ride process is configured to start when a Ride Completed platform event message occurs. A Ride Completed message occurred, but the process didn't start because multiple records in your org match the values specified in the process's Object node.
 
 
 
-To fix this issue, adjust the matching filters in the process&apos;s Object node.
+To fix this issue, adjust the matching filters in the process's Object node.
 
 Thank you, 
 Salesforce Process Automation</text>
@@ -502,11 +502,11 @@ Salesforce Process Automation</text>
         <name>noRecordsFoundTextTemplate</name>
         <text>Hello {!OrganizationName} Admin, 
 
-The Winter Ride process is configured to start when a Ride Completed platform event message occurs. A Ride Completed message occurred, but the process didn&apos;t start because no records in your org match the values specified in the process&apos;s Object node.
+The Winter Ride process is configured to start when a Ride Completed platform event message occurs. A Ride Completed message occurred, but the process didn't start because no records in your org match the values specified in the process's Object node.
 
 
 
-To fix this issue, adjust the matching filters in the process&apos;s Object node.
+To fix this issue, adjust the matching filters in the process's Object node.
 
 Thank you, 
 Salesforce Process Automation</text>

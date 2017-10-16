@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EventDelivery xmlns="http://soap.sforce.com/2006/04/metadata">
+    <eventParameters>
+        <parameterName>FlowVersionName</parameterName>
+        <parameterValue>Winter_Ride-1</parameterValue>
+    </eventParameters>
+    <eventSubscription>Winter_Ride_1</eventSubscription>
+    <referenceData>Winter_Ride_1</referenceData>
+    <type>StartFlow</type>
+</EventDelivery>

@@ -5,7 +5,8 @@
 							"type": "Constant__c",
 							"referenceId": "const1"
 					},
-					"Winter_Badge_Id__c": "@Ducati_Badge__cRef2"
+					"Winter_Badge_Id__c": "@Ducati_Badge__cRef2",
+					"Customer__c" : "@ContactRef1"
 			}
 	]
 }
