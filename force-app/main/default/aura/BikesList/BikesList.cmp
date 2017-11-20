@@ -4,7 +4,7 @@
 			<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
 
 			<!--icons at https://www.lightningdesignsystem.com/icons/ -->
-			<lightning:card title="Customer's Bikes" iconName="custom:custom48" variant="base">
+			<lightning:card title="Customer's Bikes" iconName="custom:custom11" variant="base">
 				<div class="slds-p-horizontal_medium">
 					<!--then put your body here, outside any aura:set-->
 					<aura:iteration items="{!v.bikes}" var="bike">
