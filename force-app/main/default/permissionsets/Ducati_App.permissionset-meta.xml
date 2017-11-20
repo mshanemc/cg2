@@ -124,6 +124,10 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabSettings>
+        <tab>Bike__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>Ducati_Badge__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
