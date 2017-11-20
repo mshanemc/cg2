@@ -123,4 +123,8 @@
         <object>Ride__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabSettings>
+        <tab>Ducati_Badge__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>
