@@ -52,7 +52,6 @@
     <enableSearch>true</enableSearch>
     <enableSharing>false</enableSharing>
     <enableStreamingApi>false</enableStreamingApi>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>Ride</label>
     <nameField>
         <displayFormat>Ride-{0}</displayFormat>

@@ -52,7 +52,6 @@
     <enableSearch>true</enableSearch>
     <enableSharing>false</enableSharing>
     <enableStreamingApi>false</enableStreamingApi>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>Badge Earned</label>
     <nameField>
         <displayFormat>B-{0}</displayFormat>

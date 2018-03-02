@@ -52,7 +52,6 @@
     <enableSearch>true</enableSearch>
     <enableSharing>false</enableSharing>
     <enableStreamingApi>false</enableStreamingApi>
-    <externalSharingModel>ReadWrite</externalSharingModel>
     <label>Ducati Badge</label>
     <nameField>
         <label>Badge Name</label>
