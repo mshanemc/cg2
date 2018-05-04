@@ -1,6 +1,6 @@
 {
     "orgName": "platformDemos",
-    "sourceOrg": "00D6A000001h6L5UAI",
+    "edition": "developer",
     "adminEmail" : "platformpmmdemos@gmail.com",
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
