@@ -12,6 +12,6 @@ sfdx shane:heroku:repo:deploy -g mshanemc -r ducati-demo-server -n `basename "${
 sfdx shane:heroku:repo:deploy -g mshanemc -r ducati-demo-server -n `basename "${PWD}"`-stg --envUser SFDC_USERNAME --envPassword SFDC_PASSWORD -t autodeployed-demos
 
 # attach to a pipeline
-# heroku pipelines:create `basename "${PWD}"` -a `basename "${PWD}"` --team autodeployed-demos --stage production
-# heroku pipelines:add `basename "${PWD}"` -a `basename "${PWD}"`-stg --stage staging
-# heroku pipelines:connect `basename "${PWD}"` --repo mshanemc/ducati-demo-server
+heroku pipelines:create `basename "${PWD}"` -a `basename "${PWD}"` --stage production --team autodeployed-demos
+heroku pipelines:add `basename "${PWD}"` -a `basename "${PWD}"`-stg --stage staging
+heroku pipelines:connect `basename "${PWD}"` --repo mshanemc/ducati-demo-server
