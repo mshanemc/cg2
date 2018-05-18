@@ -9,7 +9,7 @@ sfdx force:org:open
 
 # create the app from app.json
 sfdx shane:heroku:repo:deploy -g mshanemc -r ducati-demo-server -n `basename "${PWD}"` --envUser SFDC_USERNAME --envPassword SFDC_PASSWORD -t autodeployed-demos
-heroku pipelines:create `basename "${PWD}"` -a `basename "${PWD}"` --stage production --team autodeployed-demos
+heroku pipelines:create `basename "${PWD}"` -a `basename "${PWD}"` --stage production --team autodeployed-demos &
 sfdx shane:heroku:repo:deploy -g mshanemc -r ducati-demo-server -n `basename "${PWD}"`-stg --envUser SFDC_USERNAME --envPassword SFDC_PASSWORD -t autodeployed-demos
-heroku pipelines:add `basename "${PWD}"` -a `basename "${PWD}"`-stg --stage staging
-heroku pipelines:connect `basename "${PWD}"` --repo mshanemc/ducati-demo-server
+heroku pipelines:add `basename "${PWD}"` -a `basename "${PWD}"`-stg --stage staging &
+heroku pipelines:connect `basename "${PWD}"` --repo mshanemc/ducati-demo-server &
