@@ -11,6 +11,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.external_id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Customer_Bikes__c.Purchase_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
