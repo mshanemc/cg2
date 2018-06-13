@@ -1,6 +1,7 @@
 {
-    "orgName": "platformDemos",
+    "orgName": "Ducati Demo 2",
     "edition": "developer",
+    "description": "Ducati Lightning + Heroku demo",
     "adminEmail" : "platformpmmdemos@gmail.com",
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
