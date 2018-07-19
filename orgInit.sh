@@ -13,3 +13,5 @@ heroku pipelines:create `basename "${PWD}"` -a `basename "${PWD}"` --stage produ
 sfdx shane:heroku:repo:deploy -g mshanemc -r ducati-demo-server -n `basename "${PWD}"`-stg --envuser SFDC_USERNAME --envpassword SFDC_PASSWORD -t autodeployed-demos
 heroku pipelines:add `basename "${PWD}"` -a `basename "${PWD}"`-stg --stage staging &
 heroku pipelines:connect `basename "${PWD}"` --repo mshanemc/ducati-demo-server &
+heroku access:update platformpmmdemos@gmail.com -a `basename "${PWD}"` --permissions=deploy,operate
+heroku access:update platformpmmdemos@gmail.com -a `basename "${PWD}"`-stg --permissions=deploy,operate
