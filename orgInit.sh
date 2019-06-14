@@ -13,6 +13,6 @@ heroku pipelines:create `basename "${PWD/mshanemc-/}"` -a `basename "${PWD/mshan
 sfdx shane:heroku:repo:deploy -g mshanemc -r ducati-demo-server -n `basename "${PWD/mshanemc-/}"`-stg --envuser SFDC_USERNAME --envpassword SFDC_PASSWORD -t autodeployed-demos
 heroku pipelines:add `basename "${PWD/mshanemc-/}"` -a `basename "${PWD/mshanemc-/}"`-stg --stage staging
 heroku pipelines:connect `basename "${PWD/mshanemc-/}"` --repo mshanemc/ducati-demo-server
-heroku access:update platformpmmdemos@gmail.com -a `basename "${PWD/mshanemc-/}"` --permissions=deploy,operate
-heroku access:update platformpmmdemos@gmail.com -a `basename "${PWD/mshanemc-/}"`-stg --permissions=deploy,operate
+heroku access:add platformpmmdemos@gmail.com -a `basename "${PWD/mshanemc-/}"` --permissions=deploy,operate,manage
+heroku access:add platformpmmdemos@gmail.com -a `basename "${PWD/mshanemc-/}"`-stg --permissions=deploy,operate,manage
 sfdx shane:heroku:connect -a `basename "${PWD/mshanemc-/}"` -f mappings.json -e custom
