@@ -8,10 +8,11 @@ sfdx force:user:password:generate
 sfdx force:org:open
 
 # create the app from app.json
-sfdx shane:heroku:repo:deploy -g mshanemc -r ducati-demo-server -n `basename "${PWD}"` --envuser SFDC_USERNAME --envpassword SFDC_PASSWORD -t autodeployed-demos
-heroku pipelines:create `basename "${PWD}"` -a `basename "${PWD}"` --stage production --team autodeployed-demos &
-sfdx shane:heroku:repo:deploy -g mshanemc -r ducati-demo-server -n `basename "${PWD}"`-stg --envuser SFDC_USERNAME --envpassword SFDC_PASSWORD -t autodeployed-demos
-heroku pipelines:add `basename "${PWD}"` -a `basename "${PWD}"`-stg --stage staging &
-heroku pipelines:connect `basename "${PWD}"` --repo mshanemc/ducati-demo-server &
-heroku access:update platformpmmdemos@gmail.com -a `basename "${PWD}"` --permissions=deploy,operate
-heroku access:update platformpmmdemos@gmail.com -a `basename "${PWD}"`-stg --permissions=deploy,operate
+sfdx shane:heroku:repo:deploy -g mshanemc -r ducati-demo-server -n `basename "${PWD/mshanemc-/}"` --envuser SFDC_USERNAME --envpassword SFDC_PASSWORD -t autodeployed-demos
+heroku pipelines:create `basename "${PWD/mshanemc-/}"` -a `basename "${PWD/mshanemc-/}"` --stage production --team autodeployed-demos
+sfdx shane:heroku:repo:deploy -g mshanemc -r ducati-demo-server -n `basename "${PWD/mshanemc-/}"`-stg --envuser SFDC_USERNAME --envpassword SFDC_PASSWORD -t autodeployed-demos
+heroku pipelines:add `basename "${PWD/mshanemc-/}"` -a `basename "${PWD/mshanemc-/}"`-stg --stage staging
+heroku pipelines:connect `basename "${PWD/mshanemc-/}"` --repo mshanemc/ducati-demo-server
+heroku access:update platformpmmdemos@gmail.com -a `basename "${PWD/mshanemc-/}"` --permissions=deploy,operate
+heroku access:update platformpmmdemos@gmail.com -a `basename "${PWD/mshanemc-/}"`-stg --permissions=deploy,operate
+sfdx shane:heroku:connect -a `basename "${PWD/mshanemc-/}"` -f mappings.json -e custom
